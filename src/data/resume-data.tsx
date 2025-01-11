@@ -237,6 +237,7 @@ export const RESUME_DATA = {
       title: "ISO 27001 update (2022)",
       techStack: ["ISMS", "ISO 27001", "Internal Auditor", "Cloud"],
       description: "ISO 27001",
+      isActive: false,
       logo: null,
       link: {
         label: "Bright IT ISO 27001 Certification",
