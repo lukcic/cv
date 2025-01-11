@@ -9,233 +9,279 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
+  name: "Łukasz Cichecki",
+  initials: "ŁC",
   location: "Wrocław, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+  about: "DevOps Engineer with knowledge related to ISMS",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      DevOps engineer, system and network administrator with 8 years of
+      experience in IT area. I am a problem-solving person who can make
+      decisions under time pressure and I have ability to prioritize tasks
+      properly. I’m currently looking for a job that will allow me to gain
+      extensive experience with DevOps methodology toolset and develop my skills
+      in the cloud technologies field.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/37215071?v=4",
+  personalWebsiteUrl: "https://lukcic.pl",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "lukcic@outlook.com",
+    tel: "+48 723 333 222",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/lukcic",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/lukcic/",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
+        name: "XXX TODO",
+        url: "https://x.com/",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Kielce University of Technology",
+      degree: "Postgraduate Studies: Administrator of computer networks",
+      start: "2014",
+      end: "2015",
+    },
+    {
+      school:
+        "The University of Computer Engineering and Telecommunications (WSTKT) Kielce",
+      degree:
+        "Bachelor of Science in Engineering: Electronic and Telecommunication",
+      start: "2008",
+      end: "2012",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "Bright IT Sp. z o.o.",
+      link: "https://bright.global",
+      badges: ["DevOps", "AWS", "Information Security"],
+      title: "DevOps Engineer, ISO 27001 Internal Auditor",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "2022",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Design and configuration of virtual infrastructure in the cloud (AWS),
+          automation of the above-mentioned processes (Terraform, AWS CDK),
+          project maintenance.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Design and configuration of virtual infrastructure in the cloud
+              (AWS), automation of the above-mentioned processes (Terraform, AWS
+              CDK), project maintenance
+            </li>
+            <li>Preparing work environment for programmers and testers.</li>
+            <li>
+              Creating CI/CD workflows using GitHub Actions and Azure DevOps.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Infrastructure and application monitoring (ELK Stack,
+              Prometheus/Grafana, CloudWatch).
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Configuration automation using Ansible, Bash and Python scripts.
+            </li>
+            <li>
+              Administration of company toolset (Google Workspace, Slack,
+              Atlassian, 1Password), maintaining company internal network
+              (Fortigate, UniFi).
+            </li>
+            <li>Creating technical documentation and training materials</li>
+            <li>
+              Increasing the level of company’s Information Security, including
+              the development and analysis of existing IT and business
+              documentation (policies, procedures).
+            </li>
+            <li>
+              Ensuring compliance with internal regulations, regulatory
+              requirements, requirements of international standards and good
+              practices in the field of information security.
+            </li>
+            <li>
+              Identification, assessment and analysis of information security
+              risks for: IT systems, IT infrastructure, internal business
+              procedures and contracts with service providers.
+            </li>
+            <li>
+              Reduction of information security risks by proposing, implementing
+              and monitoring activities that increase cybersecurity and
+              information security.
+            </li>
+            <li>
+              Conducting Information Security audits regarding compliance with
+              the ISO 27001 standard
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Creator Sp. z o.o. Wrocław",
+      link: "https://creator.wroc.pl",
+      badges: ["SysAdmin", "HIS", "Network"],
+      title: "Computer Systems Administrator",
+      logo: null,
+      start: "2016",
+      end: "2022",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          System and network administrator.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Leading the team responsible for the purchase and deployment (in
+              IaaS cloud) of the Electronic Medical Documentation - HIS system
+              (Comarch Optimed NXT): data migration and archiving from previous
+              software, ongoing application and VMs administration, user support
+              and training, reporting errors to the vendor's service.
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              Radical reconstruction of the company's LAN network (10G core).
+              Change data transmission providers (negotiating terms), setting up
+              SD-WANs, implementation of UTM solutions (Fortigate),
+              modernization and configuration of network devices (Cisco,
+              Ubiquiti). Deploying of VLANs, EthernetVPN, SSL VPN.{" "}
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              On-premise servers replacement (HP, Lenovo ThinkSystem),
+              virtualization implementation (VMware), installation and
+              configuration OS: Windows Server (AD, RDS, GPO) and Linux CentOS
+              (MySQL, LAMP), Ubuntu (Zabbix, Docker containers)
+            </li>
+            <li>
+              AD domain management (approx. 200 users), web server
+              administration (Wordpress), e-mail server and ERP system with
+              MSSQL.
+            </li>
+            <li>
+              Modernization of the backup system based on NAS servers (QNAP,
+              Synology), Cobian backup and own scripts. - Migration of antivirus
+              solution – deploying Kaspersky Security Center instead of ESET.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
+      company: "CeFarMed Sp. z o.o. Wrocław",
+      link: "null",
+      badges: ["Remote", "Test"],
+      title: "IT Systems and Networks Administrator ",
+      logo: null,
       start: "2015",
-      end: "2021",
+      end: "2016",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Short position description.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Server systems management: Windows Server 2003 - 2012 and Linux
+              (Debian, CentOS).
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Ensuring the safety, continuity and efficiency of IT systems and
+              multi-branch network.
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Administration of HIS - Medical Unit Management System (Eurosoft
+              Przychodnia).
+            </li>
+            <li>
+              Administration of Axigen mail server (approx. 400 accounts), AD
+              domains, web server (Apache) and QNAP file servers.
+            </li>
+            <li>
+              Analysis of IT solutions available on the market, purchase of
+              hardware and software.
+            </li>
+            <li>Supervision over the ERP system (Comarch Optima ERP).</li>
+            <li>
+              Implementation of new software solutions, license management.
+            </li>
+            <li>
+              Management and modernizations of the Access Control Systems
+              (Roger), CCTV monitoring systems (Dahua, BCS) and telephone
+              exchanges (Slican).
+            </li>
+            <li>
+              Service of computer equipment and ongoing support for system
+              users.
+            </li>
+            <li>
+              Building multimedia presentation devices based on single-board
+              computers (RaspberryPi).
             </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "AWS Cloud",
+    "Ansible",
+    "Terraform",
+    "ISO 27001",
+    "Linux",
+    "Networking",
+    "Prometheus/Grafana",
+    "Git",
+    "Docker",
+    "IT Security",
   ],
-  projects: [
-    {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
-    },
-  ],
+  projects: [],
+  //   {
+  //     title: "Monito",
+  //     techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+  //     description:
+  //       "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+  //     logo: MonitoLogo,
+  //     link: {
+  //       label: "monito.dev",
+  //       href: "https://monito.dev/",
+  //     },
+  //   },
+  //   {
+  //     title: "Consultly",
+  //     techStack: [
+  //       "TypeScript",
+  //       "Next.js",
+  //       "Vite",
+  //       "GraphQL",
+  //       "WebRTC",
+  //       "Tailwind CSS",
+  //       "PostgreSQL",
+  //       "Redis",
+  //     ],
+  //     description:
+  //       "Platform for online consultations with real-time video meetings and scheduling",
+  //     logo: ConsultlyLogo,
+  //     link: {
+  //       label: "consultly.com",
+  //       href: "https://consultly.com/",
+  //     },
+  //   },
+  //   {
+  //     title: "Minimalist CV",
+  //     techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+  //     description:
+  //       "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+  //     logo: MonitoLogo,
+  //     link: {
+  //       label: "Minimalist CV",
+  //       href: "https://github.com/BartoszJarocki/cv",
+  //     },
+  //   },
+  // ],
 } as const;
