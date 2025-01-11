@@ -1,11 +1,3 @@
-import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -19,7 +11,7 @@ export const RESUME_DATA = {
       DevOps engineer, system and network administrator with 8 years of
       experience in IT area. I am a problem-solving person who can make
       decisions under time pressure and I have ability to prioritize tasks
-      properly. I’m currently looking for a job that will allow me to gain
+      properly. I&apos;m currently looking for a job that will allow me to gain
       extensive experience with DevOps methodology toolset and develop my skills
       in the cloud technologies field.
     </>
@@ -69,7 +61,7 @@ export const RESUME_DATA = {
       link: "https://bright.global",
       badges: ["DevOps", "AWS", "Information Security"],
       title: "DevOps Engineer, ISO 27001 Internal Auditor",
-      logo: ConsultlyLogo,
+      logo: null,
       start: "2022",
       end: null,
       description: (
@@ -148,7 +140,7 @@ export const RESUME_DATA = {
               and training, reporting errors to the vendor&apos;s service.
             </li>
             <li>
-              Radical reconstruction of the company`&apos;`s LAN network (10G
+              Radical reconstruction of the company&apos;s LAN network (10G
               core). Change data transmission providers (negotiating terms),
               setting up SD-WANs, implementation of UTM solutions (Fortigate),
               modernization and configuration of network devices (Cisco,
@@ -240,48 +232,16 @@ export const RESUME_DATA = {
     "Docker",
     "IT Security",
   ],
-  projects: [],
-  //   {
-  //     title: "Monito",
-  //     techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-  //     description:
-  //       "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-  //     logo: MonitoLogo,
-  //     link: {
-  //       label: "monito.dev",
-  //       href: "https://monito.dev/",
-  //     },
-  //   },
-  //   {
-  //     title: "Consultly",
-  //     techStack: [
-  //       "TypeScript",
-  //       "Next.js",
-  //       "Vite",
-  //       "GraphQL",
-  //       "WebRTC",
-  //       "Tailwind CSS",
-  //       "PostgreSQL",
-  //       "Redis",
-  //     ],
-  //     description:
-  //       "Platform for online consultations with real-time video meetings and scheduling",
-  //     logo: ConsultlyLogo,
-  //     link: {
-  //       label: "consultly.com",
-  //       href: "https://consultly.com/",
-  //     },
-  //   },
-  //   {
-  //     title: "Minimalist CV",
-  //     techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-  //     description:
-  //       "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-  //     logo: MonitoLogo,
-  //     link: {
-  //       label: "Minimalist CV",
-  //       href: "https://github.com/BartoszJarocki/cv",
-  //     },
-  //   },
-  // ],
+  projects: [
+    {
+      title: "ISO 27001 update (2022)",
+      techStack: ["ISMS", "ISO 27001", "Internal Auditor", "Cloud"],
+      description: "Iso 27001",
+      logo: null,
+      link: {
+        label: "Bright IT ISO 27001 Certification",
+        href: "https://www.bright.global/en/blog/the-importance-of-iso-certification-in-earning-client-trust",
+      },
+    },
+  ],
 } as const;
