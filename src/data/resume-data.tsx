@@ -145,12 +145,12 @@ export const RESUME_DATA = {
               IaaS cloud) of the Electronic Medical Documentation - HIS system
               (Comarch Optimed NXT): data migration and archiving from previous
               software, ongoing application and VMs administration, user support
-              and training, reporting errors to the vendor's service.
+              and training, reporting errors to the vendor&apos;s service.
             </li>
             <li>
-              Radical reconstruction of the company's LAN network (10G core).
-              Change data transmission providers (negotiating terms), setting up
-              SD-WANs, implementation of UTM solutions (Fortigate),
+              Radical reconstruction of the company`&apos;`s LAN network (10G
+              core). Change data transmission providers (negotiating terms),
+              setting up SD-WANs, implementation of UTM solutions (Fortigate),
               modernization and configuration of network devices (Cisco,
               Ubiquiti). Deploying of VLANs, EthernetVPN, SSL VPN.{" "}
             </li>
