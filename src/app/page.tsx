@@ -11,6 +11,9 @@ import { Header } from "./components/Header";
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} - Resume`,
   description: RESUME_DATA.about,
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000",
+  ),
   openGraph: {
     title: `${RESUME_DATA.name} - Resume`,
     description: RESUME_DATA.about,
