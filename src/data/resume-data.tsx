@@ -17,7 +17,7 @@ export const RESUME_DATA = {
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/37215071?v=4",
-  personalWebsiteUrl: "https://lukcic.pl",
+  personalWebsiteUrl: "https://cichecki.it",
   contact: {
     email: "lukcic@outlook.com",
     tel: "+48 723 333 222",
@@ -33,8 +33,8 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       {
-        name: "XXX TODO",
-        url: "https://x.com/",
+        name: "TwiXer",
+        url: "https://x.com/lukcicPL",
         icon: XIcon,
       },
     ],
@@ -236,7 +236,7 @@ export const RESUME_DATA = {
     {
       title: "ISO 27001 update (2022)",
       techStack: ["ISMS", "ISO 27001", "Internal Auditor", "Cloud"],
-      description: "Iso 27001",
+      description: "ISO 27001",
       logo: null,
       link: {
         label: "Bright IT ISO 27001 Certification",
