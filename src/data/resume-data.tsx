@@ -5,15 +5,17 @@ export const RESUME_DATA = {
   initials: "ŁC",
   location: "Wrocław, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "DevOps Engineer with knowledge related to ISMS",
+  about:
+    "Experienced DevOps engineer and systems administrator with nearly a decade of established experience in the IT industry.",
   summary: (
     <>
-      DevOps engineer, system and network administrator with 8 years of
-      experience in IT area. I am a problem-solving person who can make
-      decisions under time pressure and I have ability to prioritize tasks
-      properly. I&apos;m currently looking for a job that will allow me to gain
-      extensive experience with DevOps methodology toolset and develop my skills
-      in the cloud technologies field.
+      I specialize in the automation and maintenance of IT environments, with a
+      focus on high availability, performance, but most importantly
+      infrastructure security, helped by my additional expertise in ISO 27001. I
+      am looking for new challenges that will allow me to develop my skills with
+      production cloud systems and gain practical experience in the area of
+      securing IT projects. I am a solution-oriented person, able to prioritize
+      tasks accordingly, and constantly follow my innate technical curiosity.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/37215071?v=4",
@@ -66,9 +68,7 @@ export const RESUME_DATA = {
       end: null,
       description: (
         <>
-          Design and configuration of virtual infrastructure in the cloud (AWS),
-          automation of the above-mentioned processes (Terraform, AWS CDK),
-          project maintenance.
+          Short position description.
           <ul className="list-inside list-disc">
             <li>
               Design and configuration of virtual infrastructure in the cloud
@@ -130,7 +130,7 @@ export const RESUME_DATA = {
       end: "2022",
       description: (
         <>
-          System and network administrator.
+          Short position description.
           <ul className="list-inside list-disc">
             <li>
               Leading the team responsible for the purchase and deployment (in
