@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Wrocław, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Experienced DevOps engineer and System Administrator with nearly a decade of hands-on experience in the IT industry.",
+    "DevOps Engineer and System Administrator with nearly a decade of hands-on experience in the IT industry.",
   summary: (
     <>
       I specialize in the automation and maintenance of IT environments, with a
@@ -136,34 +136,34 @@ export const RESUME_DATA = {
           Short position description:
           <ul className="list-inside list-disc">
             <li>
-              Leading the team responsible for the purchase and deployment (in
-              IaaS cloud) of the Electronic Medical Documentation - HIS system
-              (Comarch Optimed NXT): data migration and archiving from previous
-              software, ongoing application and VMs administration, user support
-              and training, reporting errors to the vendor&apos;s service.
+              Leading a team responsible for the purchase and implementation (in
+              the cloud IaaS) of Electronic Medical Records - HIS system
+              (Comarch Optimed NXT), migration and archiving of data from the
+              previous software, ongoing administration of the application and
+              virtual machines, user training and support, reporting issues to
+              the vendor.
             </li>
             <li>
-              Fundamental reorganization of the company&apos;s LAN network (10G
-              core). Change data transmission providers (negotiating terms),
-              setting up SD-WANs, implementation of UTM solutions (FortiGate),
-              modernization and configuration of network devices (Cisco, UniFi).
-              Deploying of VLANs, EthernetVPN, SSL VPN.
+              Fundamental reorganization of the internal LAN network (10 Gbps).
+              Change data transmission providers (negotiating terms), setting up
+              SD-WANs, implementation of UTM solutions (FortiGate),
+              modernization and configuration of network devices, deploying of
+              VLANs, EthernetVPN, SSL VPN.
             </li>
             <li>
               On-premise servers replacement (HP, Lenovo ThinkSystem),
               virtualization implementation (VMware), installation and
-              configuration OS: Windows Server (AD, RDS, GPO) and Linux CentOS
-              (MySQL, LAMP), Ubuntu (Zabbix, Docker containers)
+              configuration of server operating systems: Windows Server (AD,
+              RDS, GPO) and Linux (CentOS, Ubuntu) with MySQL, LAMP, Zabbix.
             </li>
             <li>
-              AD domain management (approx. 200 users), web server
+              Active Directory domain management (approx. 200 users), web server
               administration (Wordpress), e-mail server and ERP system with
-              MSSQL.
+              MSSQL. Antivirus software maintenance (KAV).
             </li>
             <li>
               Modernization of the backup system based on NAS servers (QNAP,
-              Synology), Cobian backup and own scripts. - Migration of antivirus
-              solution – deploying Kaspersky Security Center instead of ESET.
+              Synology), Cobian Backup software and own scripts.
             </li>
           </ul>
         </>
@@ -190,20 +190,16 @@ export const RESUME_DATA = {
               multi-branch network.
             </li>
             <li>
-              Administration of HIS - Medical Unit Management System (Eurosoft
-              Przychodnia).
-            </li>
-            <li>
               Administration of Axigen mail server (approx. 400 accounts), AD
               domains, web server (Apache) and QNAP file servers.
             </li>
             <li>
-              Analysis of IT solutions available on the market, purchase of
-              hardware and software.
+              Medical Unit Management System (Eurosoft Przychodnia) software
+              maintenance and user support.
             </li>
-            <li>Supervision over the ERP system (Comarch Optima ERP).</li>
             <li>
-              Implementation of new software solutions, license management.
+              Implementation of new software solutions, software integration,
+              license management.
             </li>
             <li>
               Management and modernizations of the Access Control Systems
