@@ -233,7 +233,13 @@ export const RESUME_DATA = {
     "Prometheus/Grafana",
     "Git",
     "Docker",
-    "IT Security",
+    "Security",
+    "Wazuh",
+    "Python",
+    "Windows Server",
+    "Proxmox",
+    "AWS CDK",
+    "Kubernetes",
   ],
   projects: [
     {
