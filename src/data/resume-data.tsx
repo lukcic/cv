@@ -100,7 +100,7 @@ export const RESUME_DATA = {
               Integration with a multi-project cloud environment.
             </li>
             <li>
-              Increasing the level of the company's ISMS, including the
+              Increasing the level of the company&apos;s ISMS, including the
               development and analysis of existing IT and business documentation
               (policies, procedures). Conducting training.
             </li>
