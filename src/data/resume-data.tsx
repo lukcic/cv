@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Wrocław, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Experienced DevOps engineer and systems administrator with nearly a decade of established experience in the IT industry.",
+    "Experienced DevOps engineer and System Administrator with nearly a decade of hands-on experience in the IT industry.",
   summary: (
     <>
       I specialize in the automation and maintenance of IT environments, with a
@@ -68,38 +68,49 @@ export const RESUME_DATA = {
       end: null,
       description: (
         <>
-          Short position description.
+          Short position description:
           <ul className="list-inside list-disc">
             <li>
-              Design and configuration of virtual infrastructure in the cloud
-              (AWS), automation of the above-mentioned processes (Terraform, AWS
-              CDK), project maintenance
-            </li>
-            <li>Preparing work environment for programmers and testers.</li>
-            <li>
-              Creating CI/CD workflows using GitHub Actions and Azure DevOps.
+              Design and deployment of cloud infrastructure (mainly AWS) using
+              Infrastructure as a Code (Terraform, AWS CDK), projects
+              maintenance.
             </li>
             <li>
-              Infrastructure and application monitoring (ELK Stack,
-              Prometheus/Grafana, CloudWatch).
+              Creating CI/CD workflows using GitHub Actions, Jenkins and Azure
+              DevOps.
             </li>
             <li>
-              Configuration automation using Ansible, Bash and Python scripts.
+              Implementation of infrastructure monitoring solution based on
+              Prometheus/Grafana/Loki/SNMP.
+            </li>
+            <li>
+              Configuration automation using Ansible and its own scripts (Bash,
+              Python).
             </li>
             <li>
               Administration of company toolset (Google Workspace, Slack,
-              Atlassian, 1Password), maintaining company internal network
-              (Fortigate, UniFi).
+              Atlassian, 1Password).
             </li>
-            <li>Creating technical documentation and training materials</li>
             <li>
-              Increasing the level of company’s Information Security, including
-              the development and analysis of existing IT and business
-              documentation (policies, procedures).
+              Implementation of a security monitoring platform (Wazuh), system
+              hardening (Linux, cloud infrastructure).
+            </li>
+            <li>
+              Reorganization of internal LAN network (FortiGate, Unifi, Radius).
+              Integration with a multi-project cloud environment.
+            </li>
+            <li>
+              Increasing the level of the company's ISMS, including the
+              development and analysis of existing IT and business documentation
+              (policies, procedures). Conducting training.
+            </li>
+            <li>
+              Conducting Information Security audits regarding compliance with
+              the ISO 27001 standard
             </li>
             <li>
               Ensuring compliance with internal regulations, regulatory
-              requirements, requirements of international standards and good
+              requirements, international standards (ISO 27001) and good
               practices in the field of information security.
             </li>
             <li>
@@ -107,15 +118,7 @@ export const RESUME_DATA = {
               risks for: IT systems, IT infrastructure, internal business
               procedures and contracts with service providers.
             </li>
-            <li>
-              Reduction of information security risks by proposing, implementing
-              and monitoring activities that increase cybersecurity and
-              information security.
-            </li>
-            <li>
-              Conducting Information Security audits regarding compliance with
-              the ISO 27001 standard
-            </li>
+            <li>Creating technical documentation and training materials.</li>
           </ul>
         </>
       ),
@@ -124,13 +127,13 @@ export const RESUME_DATA = {
       company: "Creator Sp. z o.o. Wrocław",
       link: "https://creator.wroc.pl",
       badges: ["SysAdmin", "HIS", "Network"],
-      title: "Computer Systems Administrator",
+      title: "IT Systems Administrator",
       logo: null,
       start: "2016",
       end: "2022",
       description: (
         <>
-          Short position description.
+          Short position description:
           <ul className="list-inside list-disc">
             <li>
               Leading the team responsible for the purchase and deployment (in
@@ -140,11 +143,11 @@ export const RESUME_DATA = {
               and training, reporting errors to the vendor&apos;s service.
             </li>
             <li>
-              Radical reconstruction of the company&apos;s LAN network (10G
+              Fundamental reorganization of the company&apos;s LAN network (10G
               core). Change data transmission providers (negotiating terms),
-              setting up SD-WANs, implementation of UTM solutions (Fortigate),
-              modernization and configuration of network devices (Cisco,
-              Ubiquiti). Deploying of VLANs, EthernetVPN, SSL VPN.{" "}
+              setting up SD-WANs, implementation of UTM solutions (FortiGate),
+              modernization and configuration of network devices (Cisco, UniFi).
+              Deploying of VLANs, EthernetVPN, SSL VPN.
             </li>
             <li>
               On-premise servers replacement (HP, Lenovo ThinkSystem),
@@ -169,14 +172,14 @@ export const RESUME_DATA = {
     {
       company: "CeFarMed Sp. z o.o. Wrocław",
       link: "null",
-      badges: ["Remote", "Test"],
-      title: "IT Systems and Networks Administrator ",
+      badges: ["SysAdmin", "Linux", "ERP"],
+      title: "IT Systems and Networks Administrator",
       logo: null,
       start: "2015",
       end: "2016",
       description: (
         <>
-          Short position description.
+          Short position description:
           <ul className="list-inside list-disc">
             <li>
               Server systems management: Windows Server 2003 - 2012 and Linux
