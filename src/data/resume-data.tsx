@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       badges: ["DevOps", "AWS", "Information Security"],
       title: "DevOps Engineer, ISO 27001 Internal Auditor",
       logo: null,
-      start: "2022",
+      start: "May 2022",
       end: null,
       description: (
         <>
@@ -129,8 +129,8 @@ export const RESUME_DATA = {
       badges: ["SysAdmin", "HIS", "Network"],
       title: "IT Systems Administrator",
       logo: null,
-      start: "2016",
-      end: "2022",
+      start: "June 2016",
+      end: "April 2022",
       description: (
         <>
           Short position description:
@@ -175,8 +175,8 @@ export const RESUME_DATA = {
       badges: ["SysAdmin", "Linux", "ERP"],
       title: "IT Systems and Networks Administrator",
       logo: null,
-      start: "2015",
-      end: "2016",
+      start: "June 2015",
+      end: "May 2016",
       description: (
         <>
           Short position description:
