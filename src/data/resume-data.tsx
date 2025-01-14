@@ -72,8 +72,8 @@ export const RESUME_DATA = {
           <ul className="list-inside list-disc">
             <li>
               Design and deployment of cloud infrastructure (mainly AWS) using
-              Infrastructure as a Code (Terraform, AWS CDK), projects
-              maintenance.
+              Infrastructure as a Code (Terraform, AWS CDK), project hardening
+              and maintenance.
             </li>
             <li>
               Creating CI/CD workflows using GitHub Actions, Jenkins and Azure
@@ -84,7 +84,7 @@ export const RESUME_DATA = {
               Prometheus/Grafana/Loki/SNMP.
             </li>
             <li>
-              Configuration automation using Ansible and its own scripts (Bash,
+              Configuration automation using Ansible and custom scripts (Bash,
               Python).
             </li>
             <li>
@@ -100,9 +100,9 @@ export const RESUME_DATA = {
               Integration with a multi-project cloud environment.
             </li>
             <li>
-              Increasing the level of the company&apos;s ISMS, including the
-              development and analysis of existing IT and business documentation
-              (policies, procedures). Conducting training.
+              Enhancement of the company&apos;s ISMS, including the development
+              and analysis of existing IT and business documentation (policies,
+              procedures). Staff training.
             </li>
             <li>
               Conducting Information Security audits regarding compliance with
